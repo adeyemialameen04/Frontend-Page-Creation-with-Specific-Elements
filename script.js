@@ -18,9 +18,11 @@ const generateCurrentDate = () => {
 };
 
 const generateUTCTime = () => {
+  const date = new Date();
   const utcTimeMilliseconds = date.getTime();
   currentUTCTime.textContent = utcTimeMilliseconds;
 };
 
 generateCurrentDate();
 generateUTCTime();
+setInterval(generateUTCTime, 1000);
