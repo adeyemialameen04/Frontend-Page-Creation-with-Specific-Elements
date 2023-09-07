@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stage 1</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="resets.css" />
+  </head>
+  <body>
+    <!-- <div class="profile">
+      <h1 data-testid="slackUserName">Al ameen Adeyemi</h1>
+      <img
+        src="./1675980471749.jpg"
+        alt="alameenadeyemi"
+        class="profileImg"
+        data-testid="slackDisplayImage"
+      />
+      <p data-testid="currentDayOfTheWeek"></p>
+      <p data-testid="currentUTCTime"></p>
+      <p data-testid="myTrack">Frontend</p>
+      <a
+        target="_blank"
+        href="https://github.com/adeyemialameen04/Frontend-Page-Creation-with-Specific-Elements"
+        data-testid="githubURL"
+        >GitHub</a
+      >
+    </div> -->
+    <div class="container">
+      <h1>Welcome to My Dashboard</h1>
+      <div>
+        <p data-testid="slackUserName">alameenadeyemi</p>
+      </div>
+      <div>
+        <h2>Slack Display Picture:</h2>
+        <img
+          src="slackProfileImg.jpg"
+          alt="alameenadeyemi"
+          data-testid="slackDisplayImage"
+        />
+      </div>
+      <div class="card">
+        <h2>Current Day of the Week:</h2>
+        <p id="currentDayOfTheWeek" data-testid="currentDayOfTheWeek"></p>
+      </div>
+      <div class="card">
+        <h2>Current UTC Time:</h2>
+        <p id="currentUTCTime" data-testid="currentUTCTime"></p>
+      </div>
+      <div class="card">
+        <h2>Track:</h2>
+        <p data-testid="myTrack">Frontend</p>
+      </div>
+      <div class="card">
+        <h2>GitHub URL:</h2>
+        <a
+          href="https://github.com/yourusername/yourrepository"
+          data-testid="githubURL"
+          >GitHub Repository</a
+        >
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
